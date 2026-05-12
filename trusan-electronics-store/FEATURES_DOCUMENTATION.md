@@ -294,7 +294,7 @@ POST /api/sms/send-reminder
 
 ### 1. Test Email Verification
 ```bash
-1. Go to http://localhost:3000
+1. Go to http://localhost:3001
 2. Click "Create Account"
 3. Enter email and click "Verify Email"
 4. Check backend console for verification code
@@ -376,4 +376,6 @@ POST /api/sms/send-reminder
 **Status**: Ready for Testing ✅
 
 **Backend Server**: http://localhost:5000
-**Frontend Server**: http://localhost:3000
+**Frontend Server**: http://localhost:3001
+
+> Note: If port 3000 is already in use, Vite may open the frontend on `http://localhost:3001` instead.
