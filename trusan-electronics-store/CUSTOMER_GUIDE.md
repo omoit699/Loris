@@ -25,36 +25,63 @@ Welcome to Loris E-9. This guide will help you navigate the store, place orders,
 4. Click **Checkout** to enter shipping details and payment options.
 5. Choose a payment method and submit your order.
 
-## 4. Tracking Orders
+## 4. Payment Methods
+
+### Mobile Money Payment
+- **Send payment to: +256790206354**
+- Supports MTN Mobile Money and Airtel Money
+- Instant confirmation upon payment
+- Low transaction fees
+- No credit card required
+
+### Cash on Delivery
+- Pay when your order arrives
+- Secure and convenient
+- No online payment needed
+
+## 5. Tracking Orders
 
 1. Sign in and go to **My Orders**.
 2. View your past orders and tap an order to expand its details.
 3. See the current status, shipping information, and item list for each order.
+4. Receive SMS or WhatsApp updates on your order status.
 
-## 5. Submitting Feedback
+## 6. Submitting Feedback
 
 1. After placing an order, you may be prompted to submit feedback.
 2. Provide a rating, optional comment, and any experience notes.
 3. Your feedback helps Loris E-9 improve products and delivery.
 
-## 6. Customer Support
+## 7. Customer Support
 
-If you need help, contact support via WhatsApp at **0780275685**.
+We're here to help! Reach us through any of these channels:
 
-## 7. Safety and Best Practices
+- **WhatsApp**: 0790206354 (Chat directly with our team)
+- **WhatsApp Channel**: [Join our channel](https://whatsapp.com/channel/0029VbCseMv7IUYSEy2fqX2P) for updates and announcements
+- **Phone**: +256790206354 or +256787772067
+- **Email**: lawrenceomoit66y@gmail.com
+
+## 8. Safety and Best Practices
 
 - Keep your password private.
-- Reuse strong passwords for online accounts.
+- Use strong passwords for your account.
 - Review order details carefully before confirming payment.
 - Contact support immediately if you see unauthorized activity.
+- Never share your payment verification codes with anyone.
 
-## 8. Frequently Asked Questions
+## 9. Frequently Asked Questions
 
 **Q: Can I change my shipping address after ordering?**
-A: Contact support as soon as possible with your order details.
+A: Contact support via WhatsApp (0790206354) or email (lawrenceomoit66y@gmail.com) as soon as possible with your order details.
 
 **Q: How can I reset my password?**
-A: Use the sign-in page and follow the forgot password or account recovery steps if available.
+A: Use the sign-in page and follow the forgot password or account recovery steps if available. Contact support for further assistance.
 
 **Q: What payment methods are accepted?**
-A: Loris E-9 supports the payment methods listed during checkout, including mobile money and cash-on-delivery where available.
+A: Loris E-9 supports Mobile Money (MTN and Airtel) and Cash on Delivery. Send mobile money payments to +256790206354.
+
+**Q: How do I join the WhatsApp channel?**
+A: Click this link to join: https://whatsapp.com/channel/0029VbCseMv7IUYSEy2fqX2P
+
+**Q: How long does delivery take?**
+A: Delivery dates are estimates and may vary based on location, stock, or shipping conditions. You'll receive updates via SMS or WhatsApp.

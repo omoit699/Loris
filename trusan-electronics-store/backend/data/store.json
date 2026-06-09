@@ -1,15 +1,19 @@
 {
   "storeMeta": {
     "name": "Loris E-9",
-    "email": "admin@lorise9.com",
+    "email": "lawrenceomoit66y@gmail.com",
     "description": "Full-stack ecommerce platform for electronics",
-    "supportWhatsApp": "0780275685"
+    "supportWhatsApp": "0790206354",
+    "supportPhone": "+256790206354",
+    "alternatePhone": "+256787772067",
+    "whatsappChannel": "https://whatsapp.com/channel/0029VbCseMv7IUYSEy2fqX2P",
+    "mobileMoneyPhone": "+256790206354"
   },
   "users": [
     {
       "id": "admin",
       "name": "Admin User",
-      "email": "admin@lorise9.com",
+      "email": "lawrenceomoit66y@gmail.com",
       "password": "Admin@123",
       "isAdmin": true
     },
@@ -135,9 +139,30 @@
   ],
   "integrations": [
     {
-      "title": "Mobile Money and Cash on Delivery",
-      "description": "Support MTN Mobile Money, Airtel Money, and cash-on-delivery so customers across Uganda can pay in the way they trust most.",
-      "benefit": "Reduces payment friction for customers without credit cards."
+      "title": "Mobile Money Payment Integration",
+      "description": "Real-time mobile money payments through MTN Mobile Money and Airtel Money. Send payment to +256790206354 and receive instant confirmation.",
+      "benefit": "Enables digital payments for 80% of Ugandan consumers who prefer mobile money over cards. Fast, secure, and low transaction fees.",
+      "phoneNumber": "+256790206354"
+    },
+    {
+      "title": "Cash on Delivery",
+      "description": "Pay when your order arrives. Secure payment method for customers who prefer not to pay online.",
+      "benefit": "Reduces payment friction for customers without credit cards or digital payment access."
+    },
+    {
+      "title": "WhatsApp Channel Support",
+      "description": "Join our WhatsApp channel for order updates, product news, and customer support. Link: https://whatsapp.com/channel/0029VbCseMv7IUYSEy2fqX2P",
+      "benefit": "Stay connected with real-time notifications and direct support without using mobile data.",
+      "whatsappChannel": "https://whatsapp.com/channel/0029VbCseMv7IUYSEy2fqX2P"
+    },
+    {
+      "title": "Direct Customer Support",
+      "description": "Contact us via WhatsApp at 0790206354, call +256790206354 or +256787772067, or email lawrenceomoit66y@gmail.com for any inquiries.",
+      "benefit": "Multiple communication channels for your convenience. Quick response times and dedicated support team.",
+      "whatsapp": "0790206354",
+      "phone": "+256790206354",
+      "alternatePhone": "+256787772067",
+      "email": "lawrenceomoit66y@gmail.com"
     },
     {
       "title": "Local Pickup and Delivery Network",
@@ -151,13 +176,8 @@
     },
     {
       "title": "SMS Order Tracking",
-      "description": "Send order updates via SMS or WhatsApp to customers so they can follow shipments without mobile data.",
+      "description": "Receive order updates via SMS or WhatsApp to your registered phone number so you can follow shipments without mobile data.",
       "benefit": "Improves trust and reduces customer support inquiries."
-    },
-    {
-      "title": "Mobile Money Integration",
-      "description": "Real-time mobile money payments through MTN Mobile Money and Airtel Money with instant confirmation and low transaction fees.",
-      "benefit": "Enables digital payments for 80% of Ugandan consumers who prefer mobile money over cards."
     }
   ]
 }

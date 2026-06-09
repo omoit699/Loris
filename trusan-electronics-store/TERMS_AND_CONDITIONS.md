@@ -20,14 +20,22 @@ These terms govern your use of the Loris E-9 website and services. By using the 
 
 ## 4. Payment and Delivery
 
-- Payment can be completed through the available payment methods at checkout.
-- For mobile money payments, please follow the mobile money process steps carefully.
+### Mobile Money Payments
+- Send payment to: **+256790206354**
+- Payment can be made via MTN Mobile Money or Airtel Money
+- Instant payment confirmation provided
+- Low transaction fees apply
 - Delivery dates are estimates and may vary based on location, stock, or shipping conditions.
+
+### Cash on Delivery
+- Available for all orders
+- Pay upon delivery
+- Secure payment method
 
 ## 5. Returns, Refunds, and Cancellations
 
 - Return and refund policies apply based on product condition and store policy.
-- Contact customer support for return or cancellation requests.
+- Contact customer support for return or cancellation requests via WhatsApp (0790206354) or email (lawrenceomoit66y@gmail.com).
 - Unauthorized returns may not be accepted.
 
 ## 6. Customer Feedback
@@ -54,13 +62,19 @@ These terms govern your use of the Loris E-9 website and services. By using the 
 
 ## 10. Contact and Support
 
-- For questions about these terms, contact customer support via WhatsApp at **0780275685**.
-- We strive to respond quickly to order and account issues.
+For questions about these terms or for customer support, contact us:
+
+- **WhatsApp**: 0790206354
+- **WhatsApp Channel**: https://whatsapp.com/channel/0029VbCseMv7IUYSEy2fqX2P
+- **Phone**: +256790206354 or +256787772067
+- **Email**: lawrenceomoit66y@gmail.com
+- **Response Time**: We strive to respond quickly to order and account issues.
 
 ## 11. Changes to Terms
 
 - Loris E-9 may update these Terms and Conditions from time to time.
 - Continued use of the site after changes means you accept the revised terms.
+- Major changes will be announced via WhatsApp channel and email.
 
 ## 12. Governing Law
 
