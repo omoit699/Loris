@@ -1,10 +1,10 @@
-# Trusan Electronics Terms and Conditions
+# Loris E-9 Terms and Conditions
 
-Please read these Terms and Conditions carefully before using Trusan Electronics.
+Please read these Terms and Conditions carefully before using Loris E-9.
 
 ## 1. Introduction
 
-These terms govern your use of the Trusan Electronics website and services. By using the platform, you agree to follow and be bound by these terms.
+These terms govern your use of the Loris E-9 website and services. By using the platform, you agree to follow and be bound by these terms.
 
 ## 2. Account Responsibilities
 
@@ -16,7 +16,7 @@ These terms govern your use of the Trusan Electronics website and services. By u
 
 - Prices displayed on the site are subject to change without notice.
 - Orders are confirmed only after payment is processed or the order is accepted.
-- Trusan Electronics reserves the right to cancel or refuse any order in case of product unavailability or pricing errors.
+- Loris E-9 reserves the right to cancel or refuse any order in case of product unavailability or pricing errors.
 
 ## 4. Payment and Delivery
 
@@ -32,7 +32,7 @@ These terms govern your use of the Trusan Electronics website and services. By u
 
 ## 6. Customer Feedback
 
-- Feedback submitted on Trusan Electronics may be used to improve products and services.
+- Feedback submitted on Loris E-9 may be used to improve products and services.
 - Feedback should be honest and respectful.
 - The platform may remove feedback that violates community standards.
 
@@ -44,12 +44,12 @@ These terms govern your use of the Trusan Electronics website and services. By u
 
 ## 8. Intellectual Property
 
-- All content on the Trusan Electronics website, including text, images, and logos, is the property of Trusan Electronics or its partners.
+- All content on the Loris E-9 website, including text, images, and logos, is the property of Loris E-9 or its partners.
 - You may not reproduce or use the content without permission.
 
 ## 9. Limitation of Liability
 
-- Trusan Electronics is not liable for indirect, incidental, or consequential damages arising from your use of the website.
+- Loris E-9 is not liable for indirect, incidental, or consequential damages arising from your use of the website.
 - Liability is limited to the value of the order or service purchased.
 
 ## 10. Contact and Support
@@ -59,10 +59,10 @@ These terms govern your use of the Trusan Electronics website and services. By u
 
 ## 11. Changes to Terms
 
-- Trusan Electronics may update these Terms and Conditions from time to time.
+- Loris E-9 may update these Terms and Conditions from time to time.
 - Continued use of the site after changes means you accept the revised terms.
 
 ## 12. Governing Law
 
-- These terms are governed by applicable local laws in the jurisdiction where Trusan Electronics operates.
+- These terms are governed by applicable local laws in the jurisdiction where Loris E-9 operates.
 - Disputes should be resolved through the appropriate local legal process.

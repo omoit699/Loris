@@ -1,10 +1,10 @@
-# Trusan Electronics Customer Guide
+# Loris E-9 Customer Guide
 
-Welcome to Trusan Electronics. This guide will help you navigate the store, place orders, track deliveries, and get support.
+Welcome to Loris E-9. This guide will help you navigate the store, place orders, track deliveries, and get support.
 
 ## 1. Getting Started
 
-1. Open the Trusan Electronics website.
+1. Open the Loris E-9 website.
 2. Browse the product categories or search for the item you want.
 3. Click a product to view its details, price, and available options.
 4. Add items to your cart by choosing the quantity and clicking **Add to Cart**.
@@ -35,7 +35,7 @@ Welcome to Trusan Electronics. This guide will help you navigate the store, plac
 
 1. After placing an order, you may be prompted to submit feedback.
 2. Provide a rating, optional comment, and any experience notes.
-3. Your feedback helps Trusan Electronics improve products and delivery.
+3. Your feedback helps Loris E-9 improve products and delivery.
 
 ## 6. Customer Support
 
@@ -57,4 +57,4 @@ A: Contact support as soon as possible with your order details.
 A: Use the sign-in page and follow the forgot password or account recovery steps if available.
 
 **Q: What payment methods are accepted?**
-A: Trusan Electronics supports the payment methods listed during checkout, including mobile money and cash-on-delivery where available.
+A: Loris E-9 supports the payment methods listed during checkout, including mobile money and cash-on-delivery where available.

@@ -3,6 +3,7 @@ const express = require('express');
 const cors = require('cors');
 const { Server } = require('socket.io');
 const http = require('http');
+const storeConfig = require('./config/store-config');
 const { loadStore, saveStore } = require('./utils/store');
 const createAuthRoutes = require('./routes/auth');
 const productsRoutes = require('./routes/products');
@@ -24,8 +25,17 @@ const io = new Server(server, {
 app.use(cors());
 app.use(express.json());
 
+// Dynamic config endpoint
+app.get('/api/config', (req, res) => {
+  res.json(storeConfig);
+});
+
 app.get('/', (req, res) => {
-  res.json({ message: 'Trusan Electronics API Running', version: '1.0.0' });
+  res.json({ 
+    message: `${storeConfig.storeName} API Running`, 
+    version: storeConfig.apiVersion,
+    storeName: storeConfig.storeName 
+  });
 });
 
 app.use('/api/auth', createAuthRoutes(io));
@@ -46,5 +56,5 @@ io.on('connection', (socket) => {
 
 const PORT = process.env.PORT || 5000;
 server.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
+  console.log(`${storeConfig.storeName} server running on port ${PORT}`);
 });

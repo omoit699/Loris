@@ -1,9 +1,15 @@
 {
+  "storeMeta": {
+    "name": "Loris E-9",
+    "email": "admin@lorise9.com",
+    "description": "Full-stack ecommerce platform for electronics",
+    "supportWhatsApp": "0780275685"
+  },
   "users": [
     {
       "id": "admin",
       "name": "Admin User",
-      "email": "admin@trusan.com",
+      "email": "admin@lorise9.com",
       "password": "Admin@123",
       "isAdmin": true
     },

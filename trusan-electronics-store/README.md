@@ -1,6 +1,6 @@
-# Trusan Electronics
+# Loris E-9
 
-Full-stack ecommerce platform for electronics.
+Full-stack ecommerce platform for electronics with dynamic store branding.
 
 ## Local Development
 
@@ -20,6 +20,22 @@ Full-stack ecommerce platform for electronics.
    - `http://localhost:3001`
 
 > Note: If port `3000` is already in use, Vite may open the frontend on `http://localhost:3001`.
+
+## Dynamic Configuration
+
+The store name and branding are now dynamic! To change them, modify the environment variables in your `.env` file or update `backend/config/store-config.js`:
+
+```bash
+STORE_NAME=Loris E-9
+STORE_EMAIL=admin@lorise9.com
+SUPPORT_WHATSAPP=0780275685
+```
+
+The backend API provides a `/api/config` endpoint that returns the current store configuration:
+
+```bash
+curl http://localhost:5000/api/config
+```
 
 ## GitHub Pages
 
