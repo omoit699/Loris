@@ -1,4 +1,4 @@
-# Trusan Electronics
+# Loris E-9
 
 Full-stack ecommerce platform for electronics.
 
