@@ -1,70 +1,25 @@
 const products = [
-  {
-    id: 'jumia-phone-1',
-    name: 'Jumia SmartPhone X',
-    category: 'Phones',
-    price: 249.99,
-    currency: 'UGX',
-    vendor: 'Jumia',
-    sourceUrl: 'https://www.jumia.ug',
-    image: 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&q=80',
-    description: 'Popular Jumia phone with 6.4" display, dual cameras, and large battery for Uganda shoppers.'
-  },
-  {
-    id: 'alibaba-laptop-1',
-    name: 'Alibaba WorkPro 15',
-    category: 'Laptops',
-    price: 749.99,
-    currency: 'UGX',
-    vendor: 'Alibaba',
-    sourceUrl: 'https://www.alibaba.com',
-    image: 'https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80',
-    description: 'Durable laptop design sourced from Alibaba supplier networks with fast SSD and reliable performance.'
-  },
-  {
-    id: 'google-tv-1',
-    name: 'Google Vision 55 OLED',
-    category: 'TVs',
-    price: 1199.99,
-    currency: 'UGX',
-    vendor: 'Google Store',
-    sourceUrl: 'https://store.google.com',
-    image: 'https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=800&q=80',
-    description: 'Smart 55-inch OLED TV with integrated Google TV and voice assistant support.'
-  },
-  {
-    id: 'jumia-fridge-1',
-    name: 'Jumia FreshCool 300',
-    category: 'Fridges',
-    price: 999.99,
-    currency: 'UGX',
-    vendor: 'Jumia',
-    sourceUrl: 'https://www.jumia.ug',
-    image: 'https://images.unsplash.com/photo-1586201375761-83865001e8b7?auto=format&fit=crop&w=800&q=80',
-    description: 'Energy-efficient fridge with frost-free cooling and large storage for busy Ugandan households.'
-  },
-  {
-    id: 'alibaba-audio-1',
-    name: 'Alibaba SoundPulse Headphones',
-    category: 'Audio',
-    price: 129.99,
-    currency: 'UGX',
-    vendor: 'Alibaba',
-    sourceUrl: 'https://www.alibaba.com',
-    image: 'https://images.unsplash.com/photo-1512499617640-c2f99912b6f2?auto=format&fit=crop&w=800&q=80',
-    description: 'Comfortable wireless headphones built for long listening sessions and affordable sourcing.'
-  },
-  {
-    id: 'google-camera-1',
-    name: 'Google PixelCam 4K',
-    category: 'Cameras',
-    price: 899.99,
-    currency: 'UGX',
-    vendor: 'Google Store',
-    sourceUrl: 'https://store.google.com',
-    image: 'https://images.unsplash.com/photo-1519183071298-a2962f450d7f?auto=format&fit=crop&w=800&q=80',
-    description: 'Compact 4K camera for content creators, with advanced stabilization and cloud-ready upload support.'
-  }
+  { id: 'groceries-rice-10kg', name: 'Premium Long Grain Rice 10kg', category: 'Groceries', price: 450000, currency: 'UGX', vendor: 'Market Essentials', sourceUrl: '', image: 'https://images.unsplash.com/photo-1604908177522-7b0f4a6d8f2a?auto=format&fit=crop&w=800&q=80', description: 'High-quality long grain rice suitable for families and restaurants.' },
+  { id: 'groceries-maize-flour-5kg', name: 'Maize Flour 5kg', category: 'Groceries', price: 38000, currency: 'UGX', vendor: 'Local Mills', sourceUrl: '', image: 'https://images.unsplash.com/photo-1587316745621-3757c7076f6d?auto=format&fit=crop&w=800&q=80', description: 'Fortified maize flour, ideal for making staple meals.' },
+  { id: 'beverages-cooking-oil-5l', name: 'Vegetable Cooking Oil 5L', category: 'Beverages & Oil', price: 78000, currency: 'UGX', vendor: 'PureGold', sourceUrl: '', image: 'https://images.unsplash.com/photo-1580910051077-9b6b0b8d3c0b?auto=format&fit=crop&w=800&q=80', description: 'Refined vegetable oil for everyday cooking.' },
+  { id: 'snacks-plantain-chips-200g', name: 'Plantain Chips 200g', category: 'Snacks', price: 4500, currency: 'UGX', vendor: 'Crunchy Bites', sourceUrl: '', image: 'https://images.unsplash.com/photo-1604908177523-8a4f3b5b3a1b?auto=format&fit=crop&w=800&q=80', description: 'Crispy plantain chips, lightly salted.' },
+  { id: 'dairy-milk-2l', name: 'Fresh Milk 2L', category: 'Dairy', price: 12000, currency: 'UGX', vendor: 'DairyFarm', sourceUrl: '', image: 'https://images.unsplash.com/photo-1582719478250-0e6f6d6b6a2b?auto=format&fit=crop&w=800&q=80', description: 'Pasteurized fresh milk, rich and nutritious.' },
+  { id: 'household-detergent-5kg', name: 'Laundry Detergent 5kg', category: 'Household', price: 68000, currency: 'UGX', vendor: 'CleanCo', sourceUrl: '', image: 'https://images.unsplash.com/photo-1581579180527-7b65c0f8b4f6?auto=format&fit=crop&w=800&q=80', description: 'Powerful detergent for machine and hand washing.' },
+  { id: 'beauty-toothpaste-150ml', name: 'Whitening Toothpaste 150ml', category: 'Toiletries', price: 6500, currency: 'UGX', vendor: 'SmileCare', sourceUrl: '', image: 'https://images.unsplash.com/photo-1596464716121-1b0b11df6c3f?auto=format&fit=crop&w=800&q=80', description: 'Whitening toothpaste with fluoride for daily dental care.' },
+  { id: 'baby-diapers-large-40', name: 'Baby Diapers Large - 40pcs', category: 'Baby', price: 42000, currency: 'UGX', vendor: 'BabySoft', sourceUrl: '', image: 'https://images.unsplash.com/photo-1541579776339-3d36d3b6d5a7?auto=format&fit=crop&w=800&q=80', description: 'Ultra-absorbent diapers for comfortable all-day use.' },
+  { id: 'fashion-tshirt-basic', name: "Men's Basic T-Shirt", category: 'Fashion', price: 25000, currency: 'UGX', vendor: 'Everyday Wear', sourceUrl: '', image: 'https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=800&q=80', description: 'Comfortable cotton t-shirt available in multiple sizes and colors.' },
+  { id: 'shoes-sneakers-1', name: 'Casual Sneakers', category: 'Shoes', price: 95000, currency: 'UGX', vendor: 'Stride', sourceUrl: '', image: 'https://images.unsplash.com/photo-1542293787938-c9e299b8802d?auto=format&fit=crop&w=800&q=80', description: 'Lightweight sneakers for everyday use.' },
+  { id: 'electronics-smartphone-1', name: 'TechPhone Z5', category: 'Electronics', price: 650000, currency: 'UGX', vendor: 'TechBrand', sourceUrl: '', image: 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&q=80', description: 'Modern smartphone with HD display and long battery life.' },
+  { id: 'home-fan-16in', name: '16-inch Standing Fan', category: 'Home Appliances', price: 180000, currency: 'UGX', vendor: 'HomeComfort', sourceUrl: '', image: 'https://images.unsplash.com/photo-1580707736837-6b1d9f8a7f9f?auto=format&fit=crop&w=800&q=80', description: 'Stable standing fan with adjustable height and 3-speed settings.' },
+  { id: 'kitchen-cookware-set-7', name: "7-piece Cookware Set", category: 'Kitchen', price: 240000, currency: 'UGX', vendor: "Chef's Choice", sourceUrl: '', image: 'https://images.unsplash.com/photo-1526318472351-c75fcf0704d4?auto=format&fit=crop&w=800&q=80', description: 'Non-stick cookware set suitable for gas and electric stoves.' },
+  { id: 'furniture-dining-chair', name: 'Set of 2 Dining Chairs', category: 'Furniture', price: 150000, currency: 'UGX', vendor: 'Home Furnish', sourceUrl: '', image: 'https://images.unsplash.com/photo-1540574163026-643ea20ade25?auto=format&fit=crop&w=800&q=80', description: 'Stylish and sturdy dining chairs with cushioned seats.' },
+  { id: 'garden-hose-10m', name: 'Garden Hose 10m', category: 'Garden', price: 42000, currency: 'UGX', vendor: 'GreenTools', sourceUrl: '', image: 'https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=800&q=80', description: 'Durable garden hose with spray nozzle.' },
+  { id: 'stationery-notebook-100pg', name: 'A4 Notebook 100 Pages', category: 'Stationery', price: 3500, currency: 'UGX', vendor: 'OfficeSupplies', sourceUrl: '', image: 'https://images.unsplash.com/photo-1510936111840-9f2f6c5b0d3f?auto=format&fit=crop&w=800&q=80', description: 'Durable notebook for school and office use.' },
+  { id: 'pet-dog-food-10kg', name: 'Dog Food 10kg', category: 'Pet Supplies', price: 220000, currency: 'UGX', vendor: 'PetCare', sourceUrl: '', image: 'https://images.unsplash.com/photo-1543852786-1cf6624b9987?auto=format&fit=crop&w=800&q=80', description: 'Complete nutrition dog food for adult dogs.' },
+  { id: 'sports-football-size5', name: 'Official Size 5 Football', category: 'Sports', price: 50000, currency: 'UGX', vendor: 'ActivePlay', sourceUrl: '', image: 'https://images.unsplash.com/photo-1517927033932-b3d2b3a3a8c6?auto=format&fit=crop&w=800&q=80', description: 'Durable stitched football for outdoor play.' },
+  { id: 'auto-battery-jump-starter', name: 'Portable Jump Starter', category: 'Automotive', price: 210000, currency: 'UGX', vendor: 'AutoAid', sourceUrl: '', image: 'https://images.unsplash.com/photo-1582719478311-7b3c9ca5d2a8?auto=format&fit=crop&w=800&q=80', description: 'Compact jump starter for cars with USB charging ports.' },
+  { id: 'toys-building-blocks-200pcs', name: 'Building Blocks Set 200pcs', category: 'Toys', price: 65000, currency: 'UGX', vendor: 'KidsPlay', sourceUrl: '', image: 'https://images.unsplash.com/photo-1582233478330-0c2b7a8b6f4d?auto=format&fit=crop&w=800&q=80', description: 'Creative block set for children ages 3+.' },
+  { id: 'health-vitamins-multi30', name: 'Multivitamins 30 tablets', category: 'Health', price: 18000, currency: 'UGX', vendor: 'WellnessPlus', sourceUrl: '', image: 'https://images.unsplash.com/photo-1582719478130-9b1ef9c3d6c2?auto=format&fit=crop&w=800&q=80', description: 'Daily multivitamin supplement to support general health.' }
 ];
 
 export default products;
