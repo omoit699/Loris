@@ -1,8 +1,8 @@
 import React from 'react';
-import products from '../data/products';
+import productsFallback from '../data/products';
 import FeedbackDashboard from '../components/FeedbackDashboard';
 
-export default function AdminDashboard({ user, orderHistory, cartItems, token }) {
+export default function AdminDashboard({ user, orderHistory, cartItems, token, products = productsFallback }) {
   if (!user?.isAdmin) {
     return (
       <div>
@@ -14,7 +14,8 @@ export default function AdminDashboard({ user, orderHistory, cartItems, token })
 
   const totalOrders = orderHistory.length;
   const totalRevenue = orderHistory.reduce((sum, order) => sum + +(order.total || 0), 0);
-  const categoryCounts = products.reduce((counts, product) => {
+  const allProducts = products;
+  const categoryCounts = allProducts.reduce((counts, product) => {
     counts[product.category] = (counts[product.category] || 0) + 1;
     return counts;
   }, {});
@@ -25,7 +26,7 @@ export default function AdminDashboard({ user, orderHistory, cartItems, token })
       <div style={{ display: 'grid', gap: 16, maxWidth: 800 }}>
         <div style={{ border: '1px solid #ddd', borderRadius: 12, padding: 16, background: '#fff' }}>
           <h2>Store overview</h2>
-          <p>Products in store: {products.length}</p>
+          <p>Products in store: {allProducts.length}</p>
           <p>Active cart items: {cartItems.length}</p>
           <p>Orders completed: {totalOrders}</p>
           <p>Total revenue: ${totalRevenue.toFixed(2)}</p>

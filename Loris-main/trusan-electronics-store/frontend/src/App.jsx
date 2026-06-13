@@ -127,7 +127,7 @@ export default function App() {
       case 'signin':
         return <SignIn onSignIn={signIn} />;
       case 'admin':
-        return <AdminDashboard user={user} orderHistory={orderHistory} cartItems={cartItems} />;
+        return <AdminDashboard user={user} orderHistory={orderHistory} cartItems={cartItems} products={apiProducts} />;
       case 'feedback':
         return <FeedbackPage user={user} />;
       case 'orders':

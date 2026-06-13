@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import products from '../data/products';
 
-export default function Products({ onAddToCart }) {
+export default function Products({ products = [], onAddToCart }) {
   const [filter, setFilter] = useState('All');
   const categories = ['All', 'Phones', 'Laptops', 'TVs', 'Fridges', 'Audio', 'Cameras'];
 
