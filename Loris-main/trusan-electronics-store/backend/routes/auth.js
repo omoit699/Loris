@@ -2,7 +2,7 @@ const express = require('express');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const { loadStore, saveStore } = require('../utils/store');
-const { sendEmailVerification, sendEmail, SUPPORT_WHATSAPP } = require('../utils/notifications');
+const { sendEmailVerification, sendEmail } = require('../utils/notifications');
 
 const JWT_SECRET = process.env.JWT_SECRET || 'trusan_secret_2026';
 
@@ -45,8 +45,16 @@ module.exports = function createAuthRoutes(io) {
       return res.status(400).json({ message: 'Name, email, password, and phone number are required' });
     }
 
+    const normalizedEmail = email.toLowerCase();
+
     // Check email verification
-    if (!emailVerificationCode || !emailVerificationCodes[email] || emailVerificationCodes[email].code !== emailVerificationCode) {
+    const verification = emailVerificationCodes[normalizedEmail];
+    if (
+      !emailVerificationCode ||
+      !verification ||
+      verification.code !== emailVerificationCode ||
+      !verification.verified
+    ) {
       return res.status(400).json({ message: 'Email verification required. Please verify your email first.' });
     }
 
@@ -191,10 +199,10 @@ module.exports = function createAuthRoutes(io) {
       return res.status(400).json({ message: 'Invalid verification code' });
     }
 
+    verification.verified = true;
     res.json({ 
       message: 'Email verified successfully',
-      verified: true,
-      verificationCode: code
+      verified: true
     });
   });
 

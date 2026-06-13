@@ -46,6 +46,15 @@ app.use('/api/mobilemoney', mobileMoneyRoutes);
 app.use('/api/sms', smsRoutes);
 app.use('/api/feedback', feedbackRoutes);
 
+app.use((req, res) => {
+  res.status(404).json({ message: 'Route not found' });
+});
+
+app.use((err, req, res, next) => {
+  console.error(err);
+  res.status(500).json({ message: 'Internal server error' });
+});
+
 io.on('connection', (socket) => {
   console.log('Client connected:', socket.id);
 

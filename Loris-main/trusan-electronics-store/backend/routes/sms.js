@@ -1,5 +1,5 @@
 const express = require('express');
-const { loadStore, saveStore } = require('../utils/store');
+const { authMiddleware } = require('../utils/auth');
 
 const router = express.Router();
 
@@ -119,7 +119,11 @@ router.post('/send-reminder', (req, res) => {
 });
 
 // Get SMS logs (admin only)
-router.get('/logs', (req, res) => {
+router.get('/logs', authMiddleware, (req, res) => {
+  if (!req.user.isAdmin) {
+    return res.status(403).json({ message: 'Admin access required' });
+  }
+
   const limit = req.query.limit || 100;
   const logs = smsLog.slice(-limit);
   res.json({ logs, total: smsLog.length });
