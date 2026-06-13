@@ -1,9 +1,10 @@
+
 # Loris-E-9
 
-Monorepo containing the Loris project(s). This repository holds the `Loris-main` project which includes the Trusan Electronics Store example application (backend + frontend).
+This repository contains the Loris project: the Trusan Electronics Store example application (backend + frontend).
 
-Root layout
-- `Loris-main/` — main project folder (contains `trusan-electronics-store/`).
+Project layout
+- `Loris-main/trusan-electronics-store/` — primary project folder containing the backend and frontend apps.
 - `lfs/` — Git LFS files/storage used by this repo.
 - `BACKEND_FRONTEND_FIXES.md` — notes and fixes.
 
@@ -39,18 +40,15 @@ npm install
 npm run dev
 ```
 
-The Vite dev server runs on the default `5173` port. The backend expects the frontend origin to be configured via the environment variable `FRONTEND_URL` if needed.
+The Vite dev server runs on the default `5173` port. The frontend is configured to use the same origin for API requests by default; if your backend runs on a separate host, set `VITE_API_BASE_URL` in your environment to the backend origin.
 
 Environment variables
 - `JWT_SECRET` — JWT secret for auth (backend).
 - `PORT` — backend port (default `5000`).
 - `FRONTEND_URL` — allowed frontend origin for socket connections/CORS.
+- `VITE_API_BASE_URL` — frontend environment variable to point to a separate backend origin (optional).
 
-Proposed repo organization
-- `docs/` — consolidate documentation like `BACKEND_FRONTEND_FIXES.md` and policy docs.
-- `projects/` — group application folders such as `trusan-electronics-store`.
-
-If you'd like, I can apply this reorganization (move docs into `docs/` and create `projects/`).
+If you'd like, I can reorganize folders (move documentation into `docs/`, etc.).
 
 ---
-Generated: repository root README
+Generated: repository root README (non-monorepo wording)
