@@ -40,7 +40,7 @@ npm install
 npm run dev
 ```
 
-The Vite dev server runs on the default `5173` port. The frontend is configured to use the same origin for API requests by default; if your backend runs on a separate host, set `VITE_API_BASE_URL` in your environment to the backend origin.
+The Vite dev server runs on port `3000` by default. The frontend is configured to use the same origin for API requests by default; if your backend runs on a separate host, set `VITE_API_BASE_URL` in your environment to the backend origin.
 
 Environment variables
 - `JWT_SECRET` — JWT secret for auth (backend).
