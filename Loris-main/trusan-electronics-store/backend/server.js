@@ -1,10 +1,11 @@
-require('dotenv').config();
+const path = require('path');
+require('dotenv').config({ path: path.join(__dirname, '.env') });
 const express = require('express');
 const cors = require('cors');
 const { Server } = require('socket.io');
 const http = require('http');
 const storeConfig = require('./config/store-config');
-const { loadStore, saveStore } = require('./utils/store');
+const { ensureStore } = require('./utils/store');
 const createAuthRoutes = require('./routes/auth');
 const productsRoutes = require('./routes/products');
 const ordersRoutes = require('./routes/orders');
@@ -75,7 +76,10 @@ io.on('connection', (socket) => {
   });
 });
 
+ensureStore();
+
 const PORT = process.env.PORT || 5000;
-server.listen(PORT, () => {
-  console.log(`${storeConfig.storeName} server running on port ${PORT}`);
+const HOST = process.env.HOST || '0.0.0.0';
+server.listen(PORT, HOST, () => {
+  console.log(`${storeConfig.storeName} server running on ${HOST}:${PORT}`);
 });

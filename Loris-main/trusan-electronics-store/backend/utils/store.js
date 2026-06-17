@@ -4,6 +4,11 @@ const path = require('path');
 const storePath = path.join(__dirname, '../data/store.json');
 
 function ensureStore() {
+  const dataDir = path.dirname(storePath);
+  if (!fs.existsSync(dataDir)) {
+    fs.mkdirSync(dataDir, { recursive: true });
+  }
+
   if (!fs.existsSync(storePath)) {
     const initial = {
       users: [],

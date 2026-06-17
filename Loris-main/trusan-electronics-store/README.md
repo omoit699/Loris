@@ -53,7 +53,7 @@ This repository is configured to deploy the frontend to Vercel and the backend t
 
 ### Exact Vercel settings
 
-- Root directory: `trusan-electronics-store/frontend`
+- Root directory: `Loris-main/trusan-electronics-store/frontend`
 - Framework preset: `Vite` (or `Other` with build command)
 - Build command: `npm install && npm run build`
 - Output directory: `dist`
@@ -62,23 +62,25 @@ This repository is configured to deploy the frontend to Vercel and the backend t
   - `VITE_API_BASE_URL` = `https://<your-render-backend>.onrender.com`
 - Redirect all routes to `index.html` for client-side routing.
 
-If Vercel detects a monorepo, set the project root explicitly to `trusan-electronics-store/frontend`.
+If Vercel detects a monorepo, set the project root explicitly to `Loris-main/trusan-electronics-store/frontend`.
 
 ### Exact Render service values
 
 - Service name: `loris-e9-backend`
 - Environment: `Node`
 - Branch: `main`
-- Root directory: `trusan-electronics-store/backend`
+- Root directory: `Loris-main/trusan-electronics-store/backend`
 - Build command: `npm install`
-- Start command: `node server.js`
+- Start command: `npm start`
 - Auto deploy: `Enabled`
 - Environment variables:
   - `NODE_ENV=production`
-  - `PORT=10000`
   - `FRONTEND_URL=https://<your-vercel-project>.vercel.app` ← Set this to your deployed Vercel frontend URL for CORS
+  - `JWT_SECRET=<strong-random-secret>` ← Required in production
 
-The repository includes `render.yaml` so Render can use the same service definition if it supports repo specs.
+Do **not** set `PORT` manually on Render. Render injects `PORT` automatically.
+
+The repository includes `render.yaml` at the repo root so Render can use the same service definition if Blueprint deploy is enabled.
 
 **Note:** The backend uses `FRONTEND_URL` environment variable for CORS configuration. This must match your Vercel frontend domain to allow cross-origin requests.
 

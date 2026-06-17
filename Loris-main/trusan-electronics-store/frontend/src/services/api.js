@@ -23,6 +23,10 @@ async function request(path, options = {}) {
   return body;
 }
 
+export async function fetchStoreConfig() {
+  return request('/api/config');
+}
+
 export async function fetchProducts() {
   const data = await request('/api/products');
   return data.products || [];

@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: loris-e9-backend
+    runtime: node
+    rootDir: Loris-main/trusan-electronics-store/backend
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: FRONTEND_URL
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
